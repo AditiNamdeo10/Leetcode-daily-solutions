@@ -1,4 +1,4 @@
-//Problem : Best Time to Buy and Sell Stock.java
+//Problem : Best Time to Buy and Sell Stock
 //Topic : Array
 
 class Solution {
