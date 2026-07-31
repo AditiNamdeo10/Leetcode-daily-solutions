@@ -1,5 +1,6 @@
 #3517. Smallest Palindromic Rearrangement I
 
+from collections import Counter
 class Solution:
     def smallestPalindrome(self, s: str) -> str:
         freq=Counter(s)
@@ -13,6 +14,6 @@ class Solution:
                 middle=ch
         left="".join(left)
         return left+middle+left[::-1]
-
+print(Solution().smallestPalindrome("aabb"))
             
 
